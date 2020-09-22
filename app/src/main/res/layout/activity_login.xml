@@ -7,7 +7,6 @@
     android:padding="8dp"
     tools:context=".MainActivity">
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -63,7 +62,6 @@
                     android:maxLines="1" />
             </com.google.android.material.textfield.TextInputLayout>
 
-
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -78,7 +76,6 @@
                     android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
-
 
             <TextView
                 android:id="@+id/txtForgotPassword"
@@ -97,24 +94,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:background="#99D9EA"
-                android:onClick="disconnect"
                 android:text="Login"
-                android:textColor="#FFF"
-                android:textStyle="bold"
-                app:initialCornerAngle="5dp"
-                app:spinning_bar_color="#FFF"
-                app:spinning_bar_padding="26dp"
-                app:spinning_bar_width="0dp" />
-
-            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
-                android:id="@+id/btnLoginWithLastToken"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:background="#99D9EA"
-                android:onClick="loginWithLastToken"
-                android:text="Login With Last Token"
                 android:textColor="#FFF"
                 android:textStyle="bold"
                 app:initialCornerAngle="5dp"
@@ -131,9 +111,7 @@
                 android:textAlignment="center"
                 android:textColor="#99D9EA"
                 android:textSize="12dp"
-                android:textStyle="bold"
-
-                />
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>
